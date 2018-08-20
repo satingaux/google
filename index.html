@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-5148425958422427",
+    enable_page_level_ads: true
+  });
+</script>
+	<title>Google</title>
+	<style type="text/css">
+		input,
+input::-webkit-input-placeholder {
+    font-size: 20px;
+    color: rgb(211,211,211);
+    padding: 0% 0% 0% 0%;
+    border:none;
+    box-shadow:inset 1px 0px  gray;
+    border-bottom:  1px black;
+    box-sizing: border-box;  
+}
+    input{
+    	    padding: 1% 1% 1% 2%;
+            border: 0.5px solid rgb(220,220,220);
+            border-radius: 3px;
+            margin: 2% 25% 0% 25%;
+            width: 50%;
+            font-size: 20px;
+            color: black;
+    	}
+    	input:hover{
+            box-shadow:  0 0 10px rgb(220,220,220);
+    	}
+    	#btnsearch:hover{
+           box-shadow:  0 0 5px rgb(220,220,220);
+    	}
+    
+	</style>
+</head>
+<body background="rgb(255, 250, 240)" >
+
+		<div style="margin-top: 0%;">
+	<center>
+		<img src="https://www.google.co.in/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
+       By Satin Gaux.
+<gcse:search enableAutoComplete="true"></gcse:search>
+<gcse:searchresults defaultToImageSearch="true"></gcse:searchresults></div>
+			<!-- <input type="text" name="inputbar" id="myInput" placeholder="Search Google or type URL" autofocus  >
+			<button id="btnsearch" onclick="othername()" style="width: 10%;height: 40px;margin: 2% 45% 0% 45%;z-index: 0;border:none;" >Google Search</button> -->
+	
+	</center>
+<script>
+var input = document.getElementById("myInput");
+input.addEventListener("keyup", function(event) {
+    event.preventDefault();
+    if (event.keyCode === 13) {
+        document.getElementById("btnsearch").click();
+    }
+});
+
+
+function othername() {
+    var input = document.getElementById("myInput").value;
+    alert(input);}
+</script>
+<script>
+  (function() {
+    var cx = '001408245952352150004:it4iuf2jpr8';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+</body>
+</html>
